@@ -1,0 +1,19 @@
+{
+  "name": "cooka",
+  "version": "1.0.0",
+  "description": "INT20H 2023 Test Task. Web-development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhrapkoVasyl/Cooka.git"
+  },
+  "author": "Vasyl Khrapko (khrapko2002@gmail.com), Bogdan Zinovij (bogdanolexandrov@gmail.com), Artem Matiushenko (artom.matyushenko@gmail.com), Andriy Vostrykov (andrvostr0101@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhrapkoVasyl/Cooka/issues"
+  },
+  "homepage": "https://github.com/KhrapkoVasyl/Cooka#readme"
+}
