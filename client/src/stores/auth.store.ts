@@ -1,4 +1,5 @@
 import { makeObservable, observable } from 'mobx';
+import { makePersistable } from 'mobx-persist-store';
 
 type Auth = {
   refreshToken: string;
@@ -10,6 +11,12 @@ export class AuthStore {
 
   constructor() {
     makeObservable(this);
+
+    makePersistable(this, {
+      name: 'AuthStore',
+      properties: ['auth'],
+      storage: window.localStorage,
+    });
   }
 
   get isAuthenticated() {
