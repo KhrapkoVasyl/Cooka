@@ -3,6 +3,7 @@ import { Button, Chip, Typography, IconButton, TextField } from '@mui/material';
 import { observer } from 'mobx-react-lite';
 import { useStore } from './hooks/use-store';
 import Router from './router';
+import logo from './assets/logo.svg';
 
 const App = () => {
   const { count, inc } = useStore('testStore');
@@ -10,9 +11,7 @@ const App = () => {
   return (
     <div className="App">
       {/* Just an example -> remove later */}
-      <Typography variant="h4" fontWeight={700}>
-        Cooka
-      </Typography>
+      <img src={logo} alt="" />
       <Chip label={count} />
       <Button disableElevation onClick={inc}>
         Inc
