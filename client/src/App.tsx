@@ -1,5 +1,15 @@
+import { observer } from 'mobx-react-lite';
+import { useStore } from './hooks/use-store';
+
 const App = () => {
-  return <div className="App">Cooka</div>;
+  const { count, inc } = useStore('testStore');
+
+  return (
+    <div className="App">
+      <div>Cooka {count}</div>
+      <button onClick={inc}>Inc</button>
+    </div>
+  );
 };
 
-export default App;
+export default observer(App);
