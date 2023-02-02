@@ -9,7 +9,7 @@ type Props = {
   children: ReactNode;
 };
 
-export const ProviderWrapper: FC<Props> = ({ children }) => {
+export const AppConfig: FC<Props> = ({ children }) => {
   return (
     <StrictMode>
       <BrowserRouter>

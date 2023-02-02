@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'typeface-jost';
 import App from '@/App';
-import { ProviderWrapper } from '@/utils/components/ProviderWrapper';
+import { AppConfig } from '@/utils/components/AppConfig';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <ProviderWrapper>
+  <AppConfig>
     <App />
-  </ProviderWrapper>
+  </AppConfig>
 );
