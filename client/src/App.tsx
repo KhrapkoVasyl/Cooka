@@ -2,7 +2,7 @@ import { PlayCircle } from '@mui/icons-material';
 import { Button, Chip, Typography, IconButton, TextField } from '@mui/material';
 import { observer } from 'mobx-react-lite';
 import { useStore } from './hooks/use-store';
-import Router from './router';
+import Router from './utils/router';
 import logo from './assets/logo.svg';
 
 const App = () => {

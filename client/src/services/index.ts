@@ -1,5 +1,5 @@
-import CustomHttpClient from '@/common/httpClient';
-import HttpRequest from '@/common/httpRequest';
+import CustomHttpClient from '@/utils/common/httpClient';
+import HttpRequest from '@/utils/common/httpRequest';
 import { AuthService } from './auth.service';
 
 export class RootService {

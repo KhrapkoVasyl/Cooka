@@ -1,4 +1,4 @@
-import { HttpRequest } from '@/common/httpRequest';
+import { HttpRequest } from '@/utils/common/httpRequest';
 
 class BaseService {
   httpRequest: HttpRequest;
