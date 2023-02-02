@@ -1,4 +1,4 @@
-import { Stack, List } from '@mui/material';
+import { Stack, List, Box } from '@mui/material';
 import Logo from '../logo';
 import { Link } from 'react-router-dom';
 import {
@@ -19,7 +19,9 @@ const Sidebar = () => {
   return (
     <Stack sx={styles.sidebarWrapper}>
       <Link to="/">
-        <Logo />
+        <Box sx={styles.logoWrapper}>
+          <Logo />
+        </Box>
       </Link>
       <List sx={styles.list}>
         {menuItems.map(({ path, title, icon: Icon }) => {
