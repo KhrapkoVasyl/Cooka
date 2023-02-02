@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <AppBar color={'inherit'} position={'sticky'} sx={{ mb: '1rem' }}>
+    <AppBar color="inherit" position="sticky" sx={{ mb: '1rem' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Link to={'/'}>
+          <Link to="/">
             <img src={logo} alt="" />
           </Link>
         </Toolbar>
