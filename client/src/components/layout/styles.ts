@@ -9,6 +9,6 @@ export const styles = createStyleSheet({
   },
   mainWrapper: {
     flex: 1,
-    background: '#414141',
+    background: '#c4c4c4',
   },
 });
