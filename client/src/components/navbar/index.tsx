@@ -1,12 +1,12 @@
 import {
   AppBar,
+  Avatar,
   Chip,
   Container,
   Menu,
   MenuItem,
   Toolbar,
 } from '@mui/material';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useState, MouseEvent } from 'react';
 import { styles } from './styles';
 
@@ -32,7 +32,7 @@ const Navbar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={styles.toolbar}>
           <Chip
-            icon={<AccountCircleIcon />}
+            avatar={<Avatar alt={username} src="../avatar/foo/bar" />}
             label={username}
             sx={styles.chip}
             onClick={handleClick}
