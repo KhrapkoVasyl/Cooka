@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useState, MouseEvent } from 'react';
-import { styles } from '@/components/navbar/styles';
+import { styles } from './styles';
 
 const Navbar = () => {
   const [username] = useState('Test');
