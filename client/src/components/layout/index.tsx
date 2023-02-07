@@ -2,7 +2,6 @@ import { Box, Stack } from '@mui/material';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../navbar';
 import Sidebar from '../sidebar';
-
 import { styles } from './styles';
 
 const Layout = () => {
@@ -12,11 +11,10 @@ const Layout = () => {
         <Sidebar />
       </Stack>
       <Stack flex="1">
-        <Box sx={styles.navbarWrapper}>
+        <Box>
           <Navbar />
         </Box>
         <Box sx={styles.mainWrapper}>
-          Main
           <Outlet />
         </Box>
       </Stack>
